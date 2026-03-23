@@ -238,6 +238,37 @@ strong {
     text-decoration: underline;
 }
 
+.testimonials {
+    padding: 60px 5%;
+    background-color: #fffaf5;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    max-width: 400px;
+    font-style: italic;
+    border-top: 4px solid #2e7d32;
+}
+
+.testimonial-card span {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    font-style: normal;
+    color: #a04000;
+    text-align: right;
+}
+
 footer {
     background: #5d4037;
     color: white;
