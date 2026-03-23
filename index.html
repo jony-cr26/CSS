@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto</title>
+    <title>La fonda de Doña Mary</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Hola, Mundo!</h1>
-    <p>Esta es una página web simple.</p>
+    <nav class="navbar">
+        <div class="logo">La fonda de doña Mary</div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#menu">Nuestro Menú</a></li>
+            <li><a href="#contacto">Ubicación</a></li>
+        </ul>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>El sazón de hogar en cada bocado</h1>
+            <p>Comida corrida y especialidades con el toque único de Doña Mary.</p>
+            <a href="#menu" class="btn-fonda">Ver el Menú del Día</a>
+        </div>
+    </header>
+
+    <main id="menu" class="container">
+        <h2 class="section-title">Especialidades de la Casa</h2>
+
+        <div class="menu-grid">
+            <article class="menu-item">
+                <h3>Mole Poblano Especial</h3>
+                <p>Preparado artesanalmente con la receta secreta de la familia, servido con arroz y tortillas hechas a
+                    mano.</p>
+                <span class="price">$145.00</span>
+            </article>
+
+            <article class="menu-item">
+                <h3>Chiles en Nogada</h3>
+                <p>Temporada especial: El equilibrio perfecto entre lo dulce y lo salado con ingredientes de primera.
+                </p>
+                <span class="price">$180.00</span>
+            </article>
+
+            <article class="menu-item">
+                <h3>Sopa de Médula</h3>
+                <p>Un clásico para reconfortar el alma, servido bien caliente con cilantro y cebolla.</p>
+                <span class="price">$75.00</span>
+            </article>
+        </div>
+    </main>
+
+    <footer id="contacto">
+        <div class="footer-info">
+            <p><strong>La fonda de doña Mary</strong></p>
+            <p>Abierto de Lunes a Sábado | 9:00 AM - 6:00 PM</p>
+            <p>¡Te esperamos con los brazos abiertos!</p>
+        </div>
+    </footer>
 </body>
+
 </html>
